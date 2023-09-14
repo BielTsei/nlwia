@@ -1,0 +1,44 @@
+#form {
+  margin-top: 64px;
+  display: flex;
+  gap: 12px;
+}
+
+#form > input {
+  height: 48px;
+  width: 450px;
+  border: none;
+  color: #fff;
+  background-color: #202024;
+  border-radius: 5px;
+  padding: 0 12px;
+  font-size: 16px;
+}
+
+#form > input:focus {
+  /* O focus é quando o elemento está selecionado.*/
+  outline: 2px solid #8257e5; /*É a linha em volta do elemento, no caso do input.*/
+}
+
+#form > input:valid {
+  background-color: #202024;
+}
+
+#form > button {
+  height: 48px;
+  width: 48px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8257e5;
+  cursor: pointer; /*Coloca a "mãozinha" quando o mouse passa em cima.*/
+  transition: background-color 0.2s;
+}
+
+#form > button:hover {
+  background-color: #633bbc;
+}
+
+#form > button i {
+  font-size: 24px;
+  color: #fff;
+}
